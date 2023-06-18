@@ -1,5 +1,15 @@
 # Observability
 
+Course of Observability - Prometheus Module - Fullcycle 2.0
+
+# Summary
+
+* [Prometheus](#prometheus)
+* [Architecture](#architecture)
+* [Cadvisor](#cadvisor)
+* [Metrics](#metrics)
+* [References](#references)
+
 ## Prometheus
 
 From metrics to insight: Power your metrics and alerting with the leading
@@ -25,7 +35,7 @@ open-source monitoring solution.
 
 ![Architecture](https://github.com/JessiiPer/fullcycle-prometheus/blob/main/docs/prometheus-architecture.png)
 
-## CADVISOR
+## Cadvisor
 
 cAdvisor (short for container Advisor) analyzes and exposes resource usage and performance data from running containers. cAdvisor exposes Prometheus metrics out of the box
 
@@ -69,3 +79,8 @@ Generated dashboard in grafana with these type metrics:
 
 ![grafana](https://github.com/JessiiPer/fullcycle-prometheus/blob/main/docs/grafana.png)
 
+### References
+
+- [Prometheus](https://prometheus.io/)
+- [Grafana](https://grafana.com/) 
+- This repository is the secoun part of observalibity module. The first part is [here](https://github.com/JessiiPer/fullcycle-observability)
