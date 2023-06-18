@@ -23,7 +23,7 @@ open-source monitoring solution.
 
 ### Architecture
 
-![Architecture](https://github.com/JessiiPer/fullcycle-prometheus/blob/master/docs/prometheus-architecture.png)
+![Architecture](https://github.com/JessiiPer/fullcycle-prometheus/blob/main/docs/prometheus-architecture.png)
 
 ## CADVISOR
 
@@ -31,7 +31,7 @@ cAdvisor (short for container Advisor) analyzes and exposes resource usage and p
 
 - Added container cadvidor in docker-compoder and added a job in prometheus for cadvisor. In this way, it is possible export metrics of the containers (example: container cpu load average, container cpu usage, memory, etc)
 
-![Prometheus](https://github.com/JessiiPer/fullcycle-prometheus/blob/master/docs/prometheus.png)
+![Prometheus](https://github.com/JessiiPer/fullcycle-prometheus/blob/main/docs/prometheus.png)
 
 ## Metrics
 
@@ -67,5 +67,5 @@ Histogram metrics are useful to represent a distribution of measurements. They a
 
 Generated dashboard in grafana with these type metrics:
 
-![grafana](https://github.com/JessiiPer/fullcycle-prometheus/blob/master/docs/grafana.png)
+![grafana](https://github.com/JessiiPer/fullcycle-prometheus/blob/main/docs/grafana.png)
 
